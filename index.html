@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganapati Natarajan - Computational Materials Scientist</title>
+    <title>Ganapati Natarajan - Computational Scientist</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Ganapati Natarajan</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Ganapati Natarajan</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
@@ -25,32 +24,40 @@
             </div>
         </div>
     </nav>
-
-    <div class="container text-center">
-        <h1>Welcome to My Research Portfolio</h1>
-        <p>Computational Materials Scientist | Materials Informatics | Nanocluster Researcher</p>
-        <img src="https://via.placeholder.com/900x400" class="img-placeholder" alt="Research visualization">
-        <p class="mt-3">Specializing in molecular modeling, nanocluster stability, intercluster bonding, and data-driven materials discovery.</p>
-    </div>
-
-    <div class="container mt-5">
-        <h2>Recent Research Highlights</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <h4>Self-Assembling Nanoclusters</h4>
-                <img src="https://via.placeholder.com/450x300" class="img-placeholder" alt="Nanoclusters">
-                <p>Investigating the topological organization of gold-sulfur nanoclusters and their role in electronic transport.</p>
+    
+    <header class="text-center py-5 bg-light">
+        <div class="container">
+            <h1 class="fw-bold">Computational Materials Scientist</h1>
+            <p class="lead">Innovating in materials informatics, nanoclusters, and AI-driven materials discovery.</p>
+            <img src="https://via.placeholder.com/900x400" class="img-fluid rounded" alt="Scientific Research Image">
+        </div>
+    </header>
+    
+    <section class="container py-5">
+        <h2 class="text-center">Recent Research Highlights</h2>
+        <div class="row mt-4">
+            <div class="col-md-4 text-center">
+                <img src="https://via.placeholder.com/300x200" class="img-fluid rounded" alt="Nanocluster Research">
+                <h4 class="mt-3">Nanocluster Stability</h4>
+                <p>Investigating Borromean rings in Au₂₅(SR)₁₈ and their impact on self-assembly.</p>
             </div>
-            <div class="col-md-6">
-                <h4>Photoinduced Effects</h4>
-                <img src="https://via.placeholder.com/450x300" class="img-placeholder" alt="Photoinduced effects">
-                <p>Exploring photodarkening mechanisms in amorphous semiconductors and designing optoelectronic applications.</p>
+            <div class="col-md-4 text-center">
+                <img src="https://via.placeholder.com/300x200" class="img-fluid rounded" alt="AI Materials Discovery">
+                <h4 class="mt-3">AI-Driven Material Discovery</h4>
+                <p>Using graph neural networks to predict material properties and optimize synthesis.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://via.placeholder.com/300x200" class="img-fluid rounded" alt="Photoinduced Effects">
+                <h4 class="mt-3">Photoinduced Effects</h4>
+                <p>Understanding photodarkening and optoelectronic material transformations.</p>
             </div>
         </div>
-    </div>
-
-    <footer>
+    </section>
+    
+    <footer class="text-center py-4 bg-dark text-white">
         <p>&copy; 2025 Ganapati Natarajan. All rights reserved.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
